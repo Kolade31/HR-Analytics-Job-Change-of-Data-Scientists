@@ -10,7 +10,7 @@ I got my data for this project from kaggle. Here is the link: https://www.kaggle
 # Dataset description
 The whole data is divided into train and test. Target isn't included in test but the test target values data file is in hands for related tasks. The dataset is imbalanced and most features are categorical (Nominal, Ordinal, Binary), some with high cardinality. 
 
-#EDA
+# EDA
 And some of the insights I could get from the analysis include:
 
 1. The number of men is higher than the women and others.
@@ -20,10 +20,10 @@ And some of the insights I could get from the analysis include:
 5. The number of STEMs is quite high compared to others. When creating our model, it may override others because it occupies 88% of total major discipline.
 6. 75% of people's current employer are Pvt. Ltd.
 
-#Feature Engineering
+# Feature Engineering
 Prior to modeling, it is essential to encode all categorical features (both the target feature and the descriptive features) into a set of numerical features. So I performed Label Encoding to convert these features into a numeric form. This dataset contains a typical example of class imbalance, This problem is handled using SMOTE (Synthetic Minority Oversampling Technique).
  
-#Machine Learning Classifiers
+# Machine Learning Classifiers
 I used seven different type of classification models for this project and after modelling the best is the XG Boost model.
 
 
